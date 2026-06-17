@@ -1,7 +1,7 @@
 /* Central de Variáveis - Facilita a manutenção e garante consistência */
 :root {
     --verde-agrinho: #000000;
-    --verde-escuro: #000000;
+    --verde-escuro: #ffffff;
     --amarelo-destaque: #f1c40f;
     --cor-texto-escuro: #fafafa;
     --branco-puro: #ffffff;
@@ -22,5 +22,17 @@ body {
     background-color: var(--verde-escuro);
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+   min-height: 100vh;
+
+   .card-sustentabilidade 
+    margin-top: 20px;
+    padding: 20px;
+    background: var(--branco-puro);
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: var(--sombra-suave);
+    max-width: 500px;
+   
+
+
 }
